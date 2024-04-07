@@ -1,0 +1,50 @@
+.card-hover {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+/* Styling for navbar */
+.navbar {
+  background-color: #ffffff; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  padding: 10px 20px; /* Padding */
+}
+
+/* Styling for navbar brand */
+.navbar-brand {
+  font-size: 24px; /* Font size */
+  font-weight: bold;
+  margin-left: 80px; /* Font weight */
+}
+
+/* Styling for navbar links */
+.navbar-nav .nav-link {
+  color: #333333; /* Text color */
+  font-size: 18px; /* Font size */
+  padding: 10px 15px; /* Padding */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Text color on hover */
+}
+.container {
+  line-height: 1.5;
+}
+.card-text {
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Add this line to center the content horizontally */
+}
+
+.footer p,
+.footer a {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
